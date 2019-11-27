@@ -222,7 +222,7 @@ h1 {
 }
 
 .container-arrow3 {
-  width: 320px;
+  width: auto;
   height: 278px;
   background-color: #5A0FA0; 
   display: flex; 
@@ -246,13 +246,12 @@ h1 {
   .picture {
     width: 100%;
     height: auto;
-    flex-grow: 1;
   }
 
   .container-arrow3 {
-    width: 640px;
+    width: auto;
     height: 556px;
-    flex-grow: 1;
+
   }
 
   .third .arrow {
@@ -273,13 +272,13 @@ h1 {
 
   .picture {
     width: 327px;
-    height: 284px;
+    height: auto;
     flex-grow: 1;
   }
 
   .container-arrow3 {
     width: 326px;
-    height: 284px;
+    height: auto;
     flex-grow: 1;
   }
 
@@ -291,7 +290,7 @@ h1 {
 
   .picture {
     width: 455px;
-    height: 403px;
+    height: auto;
     flex-grow: 1;
   }
 
