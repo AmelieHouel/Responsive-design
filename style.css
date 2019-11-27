@@ -1,3 +1,170 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.picture {
+  width: 320px;
+  height: 278px;
+}
+
+/* Header */
+
+header {
+  background-color: #373C3F;
+  width: 100vw;
+  height: 10vh;
+  display: flex; 
+  justify-content: space-between;
+  align-items: center;
+}
+
 li {
   list-style-type: none;
+  display: none; 
+}
+
+.container-burger { 
+  background-color: #27212D;
+  height: 100%;
+  width: 20%;
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+}
+.burger-icon {
+  width: 30px; 
+  height: 30px; 
+}
+
+header h2 {
+  margin-left: 10px; 
+  color: white; 
+  font-size: 18px; 
+  font-weight: 500;
+}
+
+.arrow {
+  width: 30px; 
+  height: 30px; 
+}
+
+/* First Section */
+
+.first {
+  background-color: #11ABBF;
+  height: 100vh;
+  width: 100vw;
+  display: flex; 
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center; 
+  color: white; 
+}
+
+.first .arrow {
+  width: 20px; 
+  height: 20px; 
+}
+
+.site-icon {
+  display: flex;
+  width: 100vw; 
+  justify-content: space-around;
+  margin-top: 1em;
+
+}
+
+h1 {
+  font-size: 20px;
+  width: 13em;
+}
+
+/* second section */
+
+.second {
+  display: flex; 
+  background-color: #27212D;
+  color: white; 
+  height: 20vh;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.second h3 {
+  font-weight: 500; 
+  font-size: 16px; 
+  width: 70vw;
+  padding-left: 10px; 
+  padding-right: 10px;
+
+}
+
+.second .container-arrow2 {
+  width: 30vw; 
+  background-color: #BC3184;
+  height: 100%;
+  display: flex; 
+  justify-content: center; 
+  align-items: center;
+}
+
+
+/* third section */
+
+.third {
+  display: flex; 
+  flex-direction: column; 
+}
+
+.container-arrow3 {
+  width: 320px;
+  height: 278px;
+  background-color: #5A0FA0; 
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+}
+
+
+/* fourth section */
+
+.fourth {
+  background-color: #EBEBEB;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100vw;
+  
+}
+
+.fourth p {
+  text-align: justify;
+}
+
+.fourth h2 {
+  color: #11ABBF; 
+  margin-top: 30px;
+  margin-bottom: 30px;  
+  margin-left: 20px;
+}
+
+.fourth .text {
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 20px;  
+}
+
+
+/* footer */
+
+footer {
+  height: 10vh; 
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  background-color: #373C3F; 
+  color: white;
 }
