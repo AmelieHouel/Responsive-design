@@ -15,7 +15,7 @@ header {
   align-items: center;
 }
 
-li {
+ul {
   list-style-type: none;
   display: none; 
 }
@@ -48,7 +48,7 @@ header h2 {
 
 /* 640 header */
 
-@media screen and (max-width: 640px) {
+@media screen and (min-width: 640px) {
 
   header h2 {
     font-size: 22px;
@@ -56,6 +56,37 @@ header h2 {
   }
 
 }
+
+/* 980 header */
+
+@media screen and (min-width: 980px) {
+
+  header h2 {
+    display: none; 
+  }
+
+  .container-burger { 
+    display: none; 
+  }
+  
+  .burger-icon {
+
+    display: none;
+  }
+
+  nav {
+    width: 60vw; 
+  }
+
+  ul {
+    display: flex; 
+    justify-content: space-around;
+    color: white; 
+  }
+
+}
+
+
 
 /* First Section */
 
@@ -89,7 +120,7 @@ h1 {
 
 /* 640 first section */
 
-@media screen and (max-width: 640px) {
+@media screen and (min-width: 640px) {
 
   h1 {
     font-size: 30px; 
@@ -106,6 +137,23 @@ h1 {
   .first {
     height: 90vh; 
   }
+}
+
+/* 980 first section */
+
+@media screen and (min-width: 980px) {
+
+  h1 {
+    font-size: 40px; 
+    width: 16em;
+
+  }
+
+  .first .arrow {
+    width: 30px; 
+    height: 30px; 
+  }
+
 }
 
 /* second section */
@@ -139,7 +187,9 @@ h1 {
   align-items: center;
 }
 
-@media screen and (max-width: 640px) {
+/* 640 second section */
+
+@media screen and (min-width: 640px) {
 
   .second h3 {
     font-size: 20px; 
@@ -147,6 +197,7 @@ h1 {
   }
 
 }
+
 
 
 /* third section */
@@ -172,7 +223,7 @@ h1 {
 
 /* 640 third section */
 
-@media screen and (max-width: 640px) {
+@media screen and (min-width: 640px) {
 
   .picture {
     width: 640px;
@@ -191,13 +242,31 @@ h1 {
 
 }
 
+/* 980 third section */
+
+@media screen and (min-width: 980px) {
+
+  .third {
+    flex-direction: row; 
+    width: 100vw; 
+  }
+
+  .picture {
+    width: 327px;
+    height: 284px;
+  }
+
+  .container-arrow3 {
+    width: 326px;
+    height: 284px;
+  }
+
+}
+
 /* fourth section */
 
 .fourth {
   background-color: #EBEBEB;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
   width: 100vw;
 }
 
@@ -207,29 +276,44 @@ h1 {
 
 .fourth h2 {
   color: #11ABBF; 
-  margin-top: 30px;
+  padding-top: 30px;
   margin-bottom: 30px;  
   margin-left: 20px;
 }
 
 .fourth .text {
-  margin-bottom: 20px;
+  padding-bottom: 20px;
   margin-left: 20px;
   margin-right: 20px;  
 }
 
+
 /* 640 fourth section */ 
 
-@media screen and (max-width: 640px) {
+@media screen and (min-width: 640px) {
 
   .fourth .text {
-    margin-bottom: 60px;
+    padding-bottom: 60px;
     margin-left: 60px;
     margin-right: 60px;
   }
 
   .fourth h2 {
     margin-left: 60px;
+  }
+
+}
+
+/* 980 fourth section */
+
+@media screen and (min-width: 980px) {
+
+  .fourth {
+    flex-direction: row; 
+  }
+
+  .fourth .all-text {
+    display: flex; 
   }
 
 }
