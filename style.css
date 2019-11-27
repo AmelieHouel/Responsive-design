@@ -4,11 +4,6 @@
   font-family: 'Montserrat', sans-serif;
 }
 
-.picture {
-  width: 320px;
-  height: 278px;
-}
-
 /* Header */
 
 header {
@@ -50,6 +45,16 @@ header h2 {
   height: 30px; 
 }
 
+/* 640 header */
+
+@media screen and (max-width: 640px) {
+
+  header h2 {
+    font-size: 22px;
+    margin-left: 20px; 
+  }
+}
+
 /* First Section */
 
 .first {
@@ -73,12 +78,32 @@ header h2 {
   width: 100vw; 
   justify-content: space-around;
   margin-top: 1em;
-
 }
 
 h1 {
   font-size: 20px;
   width: 13em;
+}
+
+/* 640 first section */
+
+@media screen and (max-width: 640px) {
+
+  h1 {
+    font-size: 30px; 
+    width: 16em;
+
+  }
+
+  .site-icon {
+    margin-top: 1em;
+
+    font-size: 25px; 
+  }
+
+  .first {
+    height: 90vh; 
+  }
 }
 
 /* second section */
@@ -95,7 +120,8 @@ h1 {
 
 .second h3 {
   font-weight: 500; 
-  font-size: 16px; 
+  font-size: 16px;
+  color: #8F8399; 
   width: 70vw;
   padding-left: 10px; 
   padding-right: 10px;
@@ -109,6 +135,15 @@ h1 {
   display: flex; 
   justify-content: center; 
   align-items: center;
+}
+
+@media screen and (max-width: 640px) {
+
+  .second h3 {
+    font-size: 20px; 
+    padding-left: 30px;
+  }
+
 }
 
 
@@ -128,6 +163,30 @@ h1 {
   align-items: center; 
 }
 
+.picture {
+  width: 320px;
+  height: 278px;
+}
+
+/* 640 third section */
+
+@media screen and (max-width: 640px) {
+
+  .picture {
+    width: 640px;
+    height: 556px;
+  }
+
+  .container-arrow3 {
+    width: 640px;
+    height: 556px;
+}
+
+  .third .arrow {
+    width: 50px;
+    height: 50px; 
+
+  }
 
 /* fourth section */
 
@@ -157,6 +216,22 @@ h1 {
   margin-right: 20px;  
 }
 
+/* 640 fourth section */ 
+
+@media screen and (max-width: 640px) {
+
+  .fourth .text {
+    margin-bottom: 60px;
+    margin-left: 60px;
+    margin-right: 60px;
+
+  }
+
+  .fourth h2 {
+    margin-left: 60px;
+  }
+}
+
 
 /* footer */
 
@@ -166,5 +241,5 @@ footer {
   justify-content: center;
   align-items: center;
   background-color: #373C3F; 
-  color: white;
+  color: #8F8399;
 }
