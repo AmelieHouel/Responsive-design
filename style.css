@@ -232,8 +232,8 @@ h1 {
 }
 
 .picture {
-  width: 320px;
-  height: 278px;
+  width: 100%;
+  height: auto;
   flex-grow: 1;
 
 }
@@ -244,8 +244,8 @@ h1 {
 
 
   .picture {
-    width: 640px;
-    height: 556px;
+    width: 100%;
+    height: auto;
     flex-grow: 1;
   }
 
