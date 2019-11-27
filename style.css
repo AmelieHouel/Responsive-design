@@ -156,6 +156,19 @@ h1 {
 
 }
 
+/* 1366 first section */
+
+@media screen and (min-width: 1366px) {
+
+  h1 {
+    width: 21em;
+
+  }
+
+}
+
+
+
 /* second section */
 
 .second {
@@ -205,6 +218,7 @@ h1 {
 .third {
   display: flex; 
   flex-direction: column; 
+  flex-wrap: wrap;
 }
 
 .container-arrow3 {
@@ -214,25 +228,31 @@ h1 {
   display: flex; 
   justify-content: center; 
   align-items: center; 
+  flex-grow: 1;
 }
 
 .picture {
   width: 320px;
   height: 278px;
+  flex-grow: 1;
+
 }
 
 /* 640 third section */
 
 @media screen and (min-width: 640px) {
 
+
   .picture {
     width: 640px;
     height: 556px;
+    flex-grow: 1;
   }
 
   .container-arrow3 {
     width: 640px;
     height: 556px;
+    flex-grow: 1;
   }
 
   .third .arrow {
@@ -254,12 +274,37 @@ h1 {
   .picture {
     width: 327px;
     height: 284px;
+    flex-grow: 1;
   }
 
   .container-arrow3 {
     width: 326px;
     height: 284px;
+    flex-grow: 1;
   }
+
+}
+
+/* 1366 third section */
+
+@media screen and (min-width: 1366px) {
+
+  .picture {
+    width: 455px;
+    height: 403px;
+    flex-grow: 1;
+  }
+
+  .container-arrow3 {
+    width: 456px;
+    height: 403px;
+    flex-grow: 1;
+  } 
+
+  .third {
+    background-color: #5A0FA0;
+  }
+  
 
 }
 
@@ -309,12 +354,19 @@ h1 {
 @media screen and (min-width: 980px) {
 
   .fourth {
-    flex-direction: row; 
+    flex-direction: row;
   }
 
   .fourth .all-text {
     display: flex; 
   }
+
+}
+
+/* 1366 fourth section */
+
+@media screen and (min-width: 1366px) {
+
 
 }
 
