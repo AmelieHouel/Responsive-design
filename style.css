@@ -28,6 +28,7 @@ li {
   justify-content: center; 
   align-items: center; 
 }
+
 .burger-icon {
   width: 30px; 
   height: 30px; 
@@ -53,6 +54,7 @@ header h2 {
     font-size: 22px;
     margin-left: 20px; 
   }
+
 }
 
 /* First Section */
@@ -180,13 +182,14 @@ h1 {
   .container-arrow3 {
     width: 640px;
     height: 556px;
-}
+  }
 
   .third .arrow {
     width: 50px;
     height: 50px; 
-
   }
+
+}
 
 /* fourth section */
 
@@ -196,7 +199,6 @@ h1 {
   flex-direction: column;
   justify-content: center;
   width: 100vw;
-  
 }
 
 .fourth p {
@@ -224,14 +226,13 @@ h1 {
     margin-bottom: 60px;
     margin-left: 60px;
     margin-right: 60px;
-
   }
 
   .fourth h2 {
     margin-left: 60px;
   }
-}
 
+}
 
 /* footer */
 
